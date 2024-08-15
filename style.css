@@ -1,0 +1,141 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #ecf8f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: linear-gradient(to right, #ffb3ba, #ffdfba);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 2em;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  background-color: #fff;
+}
+
+.form-input-location {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  background-color: #fff;
+}
+
+.gender-options {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gender-label {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  color: #fff;
+}
+
+.gender-input {
+  margin-right: 10px;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 15px;
+  background-color: #ff6363;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #ff3b3b;
+}
+.reset-button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 15px;
+  background-color: #3bff4b;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.reset-button:hover {
+  background-color: #118f1b;
+}
+
+/* Styles for the result container */
+.result-container {
+  /* display: flex; */
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  max-width: 400px;
+  margin: 20px auto; /* Center container */
+}
+
+.result-container h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.result-container p {
+  font-size: 1em;
+  margin: 5px 0;
+  line-height: 1.5;
+}
+.result-container h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.result-container p {
+  font-size: 1em;
+  margin: 5px 0;
+  line-height: 1.5;
+}
